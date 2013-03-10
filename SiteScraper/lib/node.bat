@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.27.0.jar -role webdriver -port 5555 -nodeConfig node.json

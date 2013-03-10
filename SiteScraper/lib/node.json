@@ -1,0 +1,19 @@
+{
+    "capabilities": [{
+        "browserName": "firefox",
+        "maxInstances": 5
+    }],
+    "configuration": {
+        "hubHost": "localhost",
+        "hubPort": 4444,
+        "port": 5555,
+        "nodeTimeout": 30,
+        "nodePolling": 10000,
+        "register": true,
+        "registerCycle": 10000,
+        "cleanUpCycle": 2000,
+        "timeout": 30000,
+        "maxSession": 5,
+		"trustAllSSLCertificates": true
+    }
+}
